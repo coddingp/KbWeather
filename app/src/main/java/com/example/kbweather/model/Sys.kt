@@ -2,7 +2,7 @@ package com.example.kbweather.model
 
 import com.google.gson.annotations.SerializedName
 
-data class System(
+data class Sys(
     @SerializedName("type")
     val type: Int,
     @SerializedName("id")
@@ -10,7 +10,7 @@ data class System(
     @SerializedName("country")
     val country: String,
     @SerializedName("sunrise")
-    val sunrise: Int,
+    val sunrise: Long,
     @SerializedName("sunset")
-    val sunset: Int
+    val sunset: Long
 )
