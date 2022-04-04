@@ -4,12 +4,16 @@ plugins {
 }
 
 android {
-    compileSdk 32
+    compileSdk 31
+
+    buildFeatures{
+        viewBinding = true
+    }
 
     defaultConfig {
         applicationId "com.example.kbweather"
         minSdk 21
-        targetSdk 32
+        targetSdk 31
         versionCode 1
         versionName "1.0"
 
