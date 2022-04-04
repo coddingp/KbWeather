@@ -34,7 +34,6 @@ class MainActivity : AppCompatActivity() {
                     }
                 }
             }
-
             override fun onFailure(call: Call<WeatherData>, t: Throwable) {
                 Log.e("$$$", "${t.message}")
             }
