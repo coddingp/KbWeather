@@ -5,10 +5,10 @@ import retrofit2.converter.gson.GsonConverterFactory
 
 private const val BASE_URL = "https://api.openweathermap.org/"
 
-object retrofitClient {
+object RetrofitClient {
     private var retrofit: Retrofit? = null
 
-    fun getRetrofit(): Retrofit? {
+    fun getRetrofit(): Retrofit {
         if (retrofit == null) {
             retrofit = Retrofit.Builder()
                 .baseUrl(BASE_URL)
