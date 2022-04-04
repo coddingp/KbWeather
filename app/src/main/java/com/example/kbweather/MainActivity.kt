@@ -26,11 +26,13 @@ class MainActivity : AppCompatActivity() {
             override fun onResponse(call: Call<WeatherData>, response: Response<WeatherData>) {
                 if (response.isSuccessful && response.body() != null) {
                     val data = response.body()!!
-                    Log.e("$$$", "{${data.name}}")
-                    Log.e("$$$", "{${data.main.temp}}")
+                    Log.e("!!!", "{${data.name}}")
+                    Log.e("!!!", "{${data.main.temp}}")
                     with(binding) {
-                        cityTextView.text = data.name
-                        temperatureTExtView.text = data.main.temp.toString()
+                        val city = data.name
+                        val temp = data.main.temp
+                        cityTextView.text  = city
+                        temperatureTextView.text = temp.toString()
                     }
                 }
             }
