@@ -1,4 +1,7 @@
 <resources>
     <string name="app_name">KbWeather</string>
     <string name="_0">0</string>
+    <string name="type_city_like_moscow">Type city like Moscow</string>
+    <string name="change_city">Change city</string>
+    <string name="change">Change</string>
 </resources>
