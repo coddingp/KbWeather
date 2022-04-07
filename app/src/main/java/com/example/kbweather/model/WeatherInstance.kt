@@ -4,5 +4,5 @@ import com.google.gson.annotations.SerializedName
 
 data class WeatherInstance(
     @SerializedName("weather")
-    val weather : List<Weather>
+    val weather : List<WeatherDetails>
 )

@@ -1,8 +1,10 @@
 package com.example.kbweather.model
 
+import com.google.gson.annotations.SerializedName
+
 data class WeatherData(
     val coord: Coord,
-    val weather: List<Weather>,
+    val weather: List<WeatherDetails>,
     val base: String,
     val main: Main,
     val visibility: Long,
@@ -14,8 +16,4 @@ data class WeatherData(
     val id: Int,
     val name: String,
     val code: Int
-)
-
-data class Clouds(
-    val all: Int
 )

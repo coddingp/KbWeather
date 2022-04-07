@@ -16,4 +16,5 @@
     <color name="greenAndGrey1">#44453C</color>
     <color name="greenAndGrey2">#454E44</color>
     <color name="textColor">#22241C</color>
+    <color name="transparentBackground">#00000000</color>
 </resources>
