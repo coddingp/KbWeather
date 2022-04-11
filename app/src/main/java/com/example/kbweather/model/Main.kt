@@ -4,7 +4,7 @@ import com.google.gson.annotations.SerializedName
 
 data class Main(
     @SerializedName("temp")
-    val temp: Double,
+    val temp: Int,
     @SerializedName("feels_like")
     val feelsLike: Double,
     @SerializedName("temp_min")

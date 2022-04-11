@@ -6,8 +6,6 @@ import com.example.kbweather.api.RetrofitClient
 import com.example.kbweather.api.WeatherApi
 import com.example.kbweather.databinding.ActivityMainBinding
 import com.example.kbweather.model.WeatherData
-import timber.log.Timber
-import timber.log.Timber.Tree
 
 
 private const val API_KEY = "7f3c4dca8bafcb34ed54d37e04c089e6"
